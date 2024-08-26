@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Team Name:**
+**Team Name:** **SPOTIFY** Clone
 
 ---
 **Project Idea:**  
