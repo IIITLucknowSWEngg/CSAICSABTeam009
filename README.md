@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-**Team Name:** **SPOTIFY** Clone
+**Team Name:** 
 
 ---
-**Project Idea:**  
+**Project Idea:** **SPOTIFY** Clone
 
 ---
 
