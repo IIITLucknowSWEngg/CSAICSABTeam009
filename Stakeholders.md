@@ -1,3 +1,6 @@
+---
+
+# Stakeholders
 
 A stakeholder is any individual, group, or organization that has an interest in or is impacted by the outcome of a project. Stakeholders can influence the project’s direction, decisions, and success, either directly or indirectly.In our Spotify project the following are the list of stakeholders.
 
