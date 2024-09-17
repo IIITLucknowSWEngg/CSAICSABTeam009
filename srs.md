@@ -105,3 +105,23 @@ The Spotify Clone is a web and mobile-based application that offers music stream
    - The codebase should follow best practices and be well-documented for future maintenance.
 
 ---
+## 4. External Interface Requirements
+
+### 4.1 User Interfaces
+- Login Screen: A form for user authentication.
+- Music Player: Interface showing the current track, play/pause controls, and playlist.
+- Search Interface: A search bar to find music, artists, or albums.
+
+### 4.2 Hardware Interfaces
+- Devices with internet access, speakers, and audio output.
+
+### 4.3 Software Interfaces
+- Spotify API: To retrieve song metadata and stream audio.
+- OAuth 2.0: For secure user authentication.
+
+### 4.4 Communication Interfaces
+- The system should use secure communication protocols like HTTPS for all data transmission.
+  
+### 4.5 Payment Gateway Interface (New)
+- Integration with a third-party payment gateway (such as Stripe, PayPal) for premium subscriptions.
+- The interface should support various payment methods (credit card, digital wallets, etc.) and securely handle all transactions.
