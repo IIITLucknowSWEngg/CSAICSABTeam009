@@ -37,3 +37,56 @@ The Spotify Clone will be a music streaming platform offering features such as s
 •⁠  ⁠*Technical Proficiency*: Varies from basic to advanced; needs to manage their profiles and upload music.
 •⁠  ⁠*Expectations*: Easy-to-use tools for uploading content, managing profiles, and tracking listener statistics.
 •⁠  ⁠*Preferences*: Clear analytics on music performance, user engagement, and a straightforward content management system.
+
+## 3. Functional Requirements
+
+### 3.1 Music Streaming
+•⁠  ⁠Users must be able to stream audio from a comprehensive library.
+•⁠  ⁠The system should support high-quality audio and buffer to ensure smooth playback.
+
+### 3.2 Playlist Management
+•⁠  ⁠Users can create, edit, and delete playlists.
+•⁠  ⁠Users can add or remove songs from playlists and reorder them.
+
+### 3.3 Search Functionality
+•⁠  ⁠Users should be able to search for songs, albums, artists, and playlists.
+•⁠  ⁠Search results should be relevant and support filters to refine results.
+
+### 3.4 User Authentication
+•⁠  ⁠Users must be able to register and log in using email or social media accounts.
+•⁠  ⁠The system should provide secure authentication and account recovery options.
+
+### 3.5 Recommendations
+•⁠  ⁠The application should provide personalized music recommendations based on listening history and user preferences.
+
+### 3.6 Offline Listening (for Premium Users)
+•⁠  ⁠Premium users should be able to download songs and listen offline.
+•⁠  ⁠The system should manage downloaded content and offline access.
+
+### 3.7 Artist Profile Management
+•⁠  ⁠Artists should be able to upload new music, update their profile information, and view performance analytics.
+•⁠  ⁠The system should support content moderation and approval processes.
+
+## 4. Non-Functional Requirements
+
+### 4.1 Performance
+•⁠  ⁠The application must support high concurrency for streaming and playlist management.
+•⁠  ⁠The system should load music and playlists quickly and provide minimal latency.
+
+### 4.2 Scalability
+•⁠  ⁠The application should handle increasing numbers of users and content without degradation in performance.
+
+### 4.3 Security
+•⁠  ⁠User data and streaming content should be encrypted.
+•⁠  ⁠Authentication should be secure, with protection against unauthorized access.
+
+### 4.4 Usability
+•⁠  ⁠The user interface should be intuitive and accessible for all user groups.
+•⁠  ⁠The application should provide a consistent and engaging user experience.
+
+### 4.5 Maintainability
+•⁠  ⁠The codebase should be well-documented and follow best practices to facilitate future updates and maintenance.
+
+---
+
+This URD document outlines the key requirements and characteristics needed to guide the development of the Spotify Clone, ensuring it meets user needs and expectations.
