@@ -60,3 +60,48 @@ The Spotify Clone is a web and mobile-based application that offers music stream
 - Real-time updates for song recommendations and playlists.
 
 ---
+
+## 3. Specific Requirements
+
+### 3.1 Functional Requirements
+
+1. *User Registration and Login*
+   - Users must be able to sign up using email or social login.
+   - Users must be able to log in using valid credentials.
+
+2. *Music Streaming*
+   - Users can stream audio from a library of songs.
+   - The system should buffer the stream to ensure smooth playback.
+
+3. *Playlist Creation*
+   - Users can create and edit playlists.
+   - Users can add or remove songs from their playlists.
+
+4. *Search Functionality*
+   - The application should allow users to search for songs, artists, and albums.
+
+5. *Follow Artists*
+   - Users can follow their favorite artists and receive updates about new releases.
+
+6. *Offline Listening (for Premium Users)*
+   - Premium users can download songs and listen to them offline.
+
+### 3.2 Non-Functional Requirements
+
+1. *Performance*
+   - The system must support concurrent streaming for thousands of users with minimal latency.
+
+2. *Scalability*
+   - The application must be scalable to handle millions of users and large data volumes.
+
+3. *Security*
+   - Ensure user data and streaming content are encrypted.
+   - Secure authentication using OAuth 2.0.
+
+4. *Usability*
+   - The user interface should be intuitive and easy to navigate.
+
+5. *Maintainability*
+   - The codebase should follow best practices and be well-documented for future maintenance.
+
+---
