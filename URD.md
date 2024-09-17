@@ -88,5 +88,3 @@ The Spotify Clone will be a music streaming platform offering features such as s
 •⁠  ⁠The codebase should be well-documented and follow best practices to facilitate future updates and maintenance.
 
 ---
-
-This URD document outlines the key requirements and characteristics needed to guide the development of the Spotify Clone, ensuring it meets user needs and expectations.
