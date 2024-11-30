@@ -69,19 +69,26 @@ The primary functions of the Spotify Clone include:
 
 ### 3.1 Functional Requirements
 
-| Requirement ID | Description |
-|----------------|-------------|
-| **FR-1** | Users must be able to register and create an account using email or social media accounts (e.g., Google, Facebook). |
-| **FR-2** | Users must be able to log in with their credentials and recover their password if forgotten. |
-| **FR-3** | The system must allow users to stream songs from a vast library in real-time with buffering to ensure smooth playback. |
-| **FR-4** | Users must be able to search for songs, albums, artists, and playlists using a search bar. |
-| **FR-5** | Users should be able to create, edit, and delete playlists, and add or remove songs from these playlists. |
-| **FR-6** | The application must support the ability for users to follow artists and receive updates on new releases. |
-| **FR-7** | The platform should provide personalized music recommendations based on the user's listening history and preferences. |
-| **FR-8** | Premium users must be able to download songs for offline listening. The downloaded songs should only be accessible through the app. |
-| **FR-9** | The application must integrate with a payment gateway (e.g: PayPal) to handle premium subscription payments, supporting multiple payment methods (credit card, digital wallets). |
-| **FR-10** | The system should notify users about subscription status, renewals, and payment issues. |
+| **Use Case**              | **Primary Actor** | **Preconditions**                     | **Actor's Goals**               | **Secondary Actors** | **Main Tasks/Functions**                     |
+|---------------------------|-------------------|---------------------------------------|---------------------------------|----------------------|----------------------------------------------|
+| Stream Music              | User              | User is logged in and has internet    | Listen to songs online          | None                 | Fetch and play music in real-time            |
+| Download Offline Music    | User              | User is logged in with a premium plan | Listen to music offline         | None                 | Enable song downloads for offline access     |
+| Generate Recommendations  | User              | User has an active account            | Discover new music              | System Algorithm     | Suggest songs based on user's activity       |
+| Report Issues             | User              | User encountered an issue             | Resolve app problems            | Admin                | Submit issue reports to support team         |
+| Browse Music              | User              | User is logged in                     | Explore available songs         | None                 | Display categories and playlists             |
+| Search for Songs          | User              | User is logged in                     | Find specific tracks            | None                 | Enable keyword-based song search             |
+| Create Playlist           | User              | User is logged in                     | Organize favorite tracks        | None                 | Add/remove songs to/from playlists           |
+| View Artist Analytics     | Artist            | Artist account is active              | Track performance of uploads    | None                 | Show statistics on views and plays           |
+| Upload Content            | Artist            | Artist account is active              | Share music with users          | Admin (approval)     | Upload and manage music files                |
+| Handle Payments           | Admin             | Payment systems are set up            | Manage user subscriptions       | User                 | Process subscription fees and transactions   |
+| Manage Users              | Admin             | Admin account is active               | Maintain user database          | User/Artist          | Add, remove, or modify user accounts         |
+---
 
+
+
+# Use Case Diagram
+![Use Case Diagram](/usecases.png)
+---
 ### 3.2 Non-Functional Requirements
 
 | Requirement ID | Description |
