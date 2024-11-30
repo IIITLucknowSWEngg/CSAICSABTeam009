@@ -27,6 +27,9 @@ The Spotify Clone will deliver a user-friendly music streaming experience on bot
 - User surveys and feedback on music streaming experiences
 - Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
 
+### 1.5 Overview  
+This document is organized into several sections that describe the overall system, functional requirements, non-functional requirements, and other considerations relevant to the development and implementation of the Spotify Clone application. It provides a detailed roadmap for creating a music streaming platform that includes features like user authentication, music playback, playlist creation, personalized recommendations, artist profiles, and premium subscription services. The document also highlights the technical and design considerations to ensure a seamless and scalable user experience.
+
 ---
 
 ## 2. Overall Description
