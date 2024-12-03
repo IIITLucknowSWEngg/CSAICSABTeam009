@@ -10,24 +10,24 @@
 
 ### 1.1 Purpose
 
-The purpose of this Software Requirements Specification (SRS) document is to provide a comprehensive description of the Spotify Clone, a music streaming platform specifically designed for local artists. The platform enables users to stream music, create playlists, follow local artists, and discover new music from their region.
+The purpose of this Software Requirements Specification (SRS) document is to provide a detailed and technical description of the Spotify Clone, a music streaming platform designed for local artists. The system is intended to enable authenticated users to stream music, create and manage playlists, follow artists, and discover music based on regional preferences.
 
 ### 1.2 Scope
 
-The Spotify Clone will deliver a user-friendly music streaming experience on both web and mobile platforms. It will cater to music listeners, artists, and premium subscribers, allowing them to stream music, create and share playlists, and explore a vast music library. Key functionalities include user authentication, personalized recommendations, offline listening for premium users, and payment processing for premium subscriptions.
+The Spotify Clone will deliver a seamless music streaming experience on web and mobile platforms. It is designed for diverse user roles, including listeners, artists, and premium subscribers. Core functionalities include user authentication, real-time streaming, playlist management, personalized recommendations, offline playback for premium users, and secure payment processing for subscriptions.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
--   **API**: Application Programming Interface
--   **UI**: User Interface
--   **UX**: User Experience
--   **SRS**: Software Requirements Specification
--   **OAuth 2.0**: Open Authorization, a protocol for secure user authentication
--   **SSL**: Secure Sockets Layer, a standard security technology for encrypted connections
+- **API**: Application Programming Interface  
+- **UI**: User Interface  
+- **UX**: User Experience  
+- **SRS**: Software Requirements Specification  
+- **OAuth 2.0**: Open Authorization, a protocol for secure user authentication  
+- **SSL**: Secure Sockets Layer, a protocol for encrypted communications  
 
 ### 1.4 Overview
 
-This document is organized into several sections that describe the overall system, functional requirements, non-functional requirements, and other considerations relevant to the development and implementation of the Spotify Clone application. It provides a detailed roadmap for creating a music streaming platform that includes features like user authentication, music playback, playlist creation, personalized recommendations, artist profiles, and premium subscription services. The document also highlights the technical and design considerations to ensure a seamless and scalable user experience.
+This document provides a roadmap for designing and implementing a music streaming platform with features like secure authentication, playlist management, and personalized recommendations. Key non-functional requirements, design constraints, and interfaces are outlined to guide development. The solution focuses on scalability, modularity, and performance to cater to a large user base.
 
 ---
 
@@ -35,39 +35,37 @@ This document is organized into several sections that describe the overall syste
 
 ### 2.1 Product Perspective
 
-The Spotify Clone is a web and mobile-based music streaming application. It will integrate with third-party APIs to manage music metadata and will enable users to stream audio, create and manage playlists, follow artists, and access personalized recommendations. The platform will be scalable and capable of handling a large user base.
+The Spotify Clone is a multi-platform music streaming application that uses third-party APIs for metadata management. It allows authenticated users to stream music, create playlists, and explore new content. The system emphasizes scalability and modularity to ensure performance under heavy user loads.
 
 ### 2.2 Product Functions
 
-The primary functions of the Spotify Clone include:
-
--   **User Registration and Login**: Users can create accounts using email or social media and log in securely.
--   **Music Streaming**: Stream songs and albums in real-time with high-quality audio.
--   **Playlist Management**: Create, edit, and manage custom playlists.
--   **Search Functionality**: Search for songs, albums, artists, and playlists.
--   **Following Artists**: Users can follow their favorite artists to receive updates.
--   **Recommendations**: Provide personalized music recommendations based on listening history and preferences.
--   **Payment Processing for Premium Subscriptions**: Securely manage user payments and subscriptions using a third-party payment gateway.
+- **Authentication**: Registration and login using email or OAuth 2.0 for secure access.  
+- **Streaming**: Real-time music playback with high-quality audio options.  
+- **Playlist Management**: Allows creation, modification, and deletion of playlists.  
+- **Music Search**: Keyword-based search for songs, albums, and artists.  
+- **Personalized Recommendations**: Dynamic recommendations based on user activity.  
+- **Offline Playback**: Premium subscribers can download songs for offline access.  
+- **Subscription Management**: Handles payment processing, renewal, and cancellations.  
 
 ### 2.3 User Classes and Characteristics
 
--   **Regular Users**: Users who use the platform to listen to music and create playlists. They have access to ads and cannot download songs for offline listening.
--   **Premium Users**: Users who pay for premium features, such as ad-free listening, offline downloads, and high-quality audio.
--   **Artists**: Users who upload and manage their music content, interact with fans, and track listener metrics.
--   **Admin Users**: Platform administrators who manage user accounts, monitor content, and ensure compliance with licensing.
+- **Basic Listener**: Newly registered individuals who access the platform with limited features and advertisements.  
+- **Premium Subscriber**: Advanced users with paid subscriptions, enjoying ad-free listening, offline downloads, and high-quality audio.  
+- **Artist**: Contributors who upload and manage music, track engagement metrics, and interact with followers.  
+- **Administrator**: Privileged users responsible for monitoring content, managing user accounts, and ensuring compliance.  
 
 ### 2.4 Operating Environment
 
--   **Client Side**: Web browsers (Chrome, Firefox, Edge, Safari), iOS and Android mobile devices.
--   **Server Side**: Node.js, AWS for cloud storage, REST APIs for communication.
--   **Database**: MongoDB for storing user profiles, playlists, streaming data, and song metadata.
+- **Client-Side**: Modern web browsers (e.g., Chrome, Firefox) and mobile devices (iOS and Android).  
+- **Server-Side**: Hosted on AWS, developed using Node.js, with REST APIs for data exchange.  
+- **Database**: MongoDB for storing metadata, user information, and playlists.  
 
 ### 2.5 Design and Implementation Constraints
 
--   The application must be optimized for both desktop and mobile devices, ensuring a responsive design.
--   Compliance with data privacy regulations such as GDPR.
--   Secure streaming of audio content using SSL encryption.
--   Real-time data synchronization for playlist updates and personalized recommendations.
+- The system must support responsive design for optimal performance on various devices.  
+- Adherence to GDPR and other privacy regulations.  
+- SSL encryption for secure audio streaming.  
+- Real-time updates for playlist synchronization and user interactions.  
 
 ---
 
@@ -77,21 +75,26 @@ The primary functions of the Spotify Clone include:
 
 | **Use Case**             | **Primary Actor** | **Preconditions**                     | **Actor's Goals**            | **Secondary Actors** | **Main Tasks/Functions**                   |
 | ------------------------ | ----------------- | ------------------------------------- | ---------------------------- | -------------------- | ------------------------------------------ |
-| Stream Music             | User              | User is logged in and has internet    | Listen to songs online       | None                 | Fetch and play music in real-time          |
-| Download Offline Music   | User              | User is logged in with a premium plan | Listen to music offline      | None                 | Enable song downloads for offline access   |
-| Generate Recommendations | User              | User has an active account            | Discover new music           | System Algorithm     | Suggest songs based on user's activity     |
-| Report Issues            | User              | User encountered an issue             | Resolve app problems         | Admin                | Submit issue reports to support team       |
-| Browse Music             | User              | User is logged in                     | Explore available songs      | None                 | Display categories and playlists           |
-| Search for Songs         | User              | User is logged in                     | Find specific tracks         | None                 | Enable keyword-based song search           |
-| Create Playlist          | User              | User is logged in                     | Organize favorite tracks     | None                 | Add/remove songs to/from playlists         |
+| Stream Music             | End User          | End User is logged in and has internet    | Listen to songs online       | None                 | Fetch and play music in real-time          |
+| Download Offline Music   | Premium User      | Premium User is logged in with a premium plan | Listen to music offline      | None                 | Enable song downloads for offline access   |
+| Generate Recommendations | End User          | End User has an active account            | Discover new music           | System Algorithm     | Suggest songs based on user's activity     |
+| Report Issues            | End User          | End User encountered an issue             | Resolve app problems         | Admin                | Submit issue reports to support team       |
+| Browse Music             | End User          | End User is logged in                     | Explore available songs      | None                 | Display categories and playlists           |
+| Search for Songs         | End User          | End User is logged in                     | Find specific tracks         | None                 | Enable keyword-based song search           |
+| Create Playlist          | End User          | End User is logged in                     | Organize favorite tracks     | None                 | Add/remove songs to/from playlists         |
 | View Artist Analytics    | Artist            | Artist account is active              | Track performance of uploads | None                 | Show statistics on views and plays         |
-| Upload Content           | Artist            | Artist account is active              | Share music with users       | Admin (approval)     | Upload and manage music files              |
-| Handle Payments          | Admin             | Payment systems are set up            | Manage user subscriptions    | User                 | Process subscription fees and transactions |
-| Manage Users             | Admin             | Admin account is active               | Maintain user database       | User/Artist          | Add, remove, or modify user accounts       |
-
+| Upload Content           | Artist            | Artist account is active              | Share music with End Users       | Admin (approval)     | Upload and manage music files              |
+| Handle Payments          | Admin             | Payment systems are set up            | Manage Premium User subscriptions    | End User                 | Process subscription fees and transactions |
+| Manage Users             | Admin             | Admin account is active               | Maintain user database       | End User/Artist          | Add, remove, or modify user accounts       |
+---
+- **User**: Refers to any individual who interacts with the music streaming platform. It can be categorized as:
+  - **End User**: A general user who accesses the platform for music streaming and related features.
+  - **Premium User**: A subscriber with additional privileges like downloading music for offline listening.
+  - **Artist**: A creator or contributor uploading content and managing their analytics.
+  - **Admin**: A platform manager responsible for overseeing user accounts, handling payments, and maintaining the system.
 ---
 
-# Use Case Diagram
+### 3.2 Use Case Diagram
 
 ![Use Case Diagram](/usecases.png)
 
@@ -105,25 +108,22 @@ The primary functions of the Spotify Clone include:
 
 ### 3.2 Non-Functional Requirements
 
-### SE Guidelines vs. NFR Compatibility Matrix for Spotify Clone
-
 | **SE Guidelines/NFRs** | **Performance** | **Security** | **Availability** | **Scalability** | **Usability** |
-| ---------------------- | --------------- | ------------ | ---------------- | --------------- | ------------- |
-| **Modularity**         | C+              | C+           | C+               | C+              | O             |
-| **Maintainability**    | O               | C+           | C+               | C+              | O             |
-| **Reusability**        | O               | C+           | C+               | C+              | O             |
-| **Testability**        | O               | C+           | C+               | O               | I             |
-| **Documentation**      | I               | C+           | O                | O               | C+            |
-| **Error Handling**     | C               | C+           | C+               | O               | C+            |
+|-------------------------|-----------------|--------------|------------------|-----------------|---------------|
+| **Modularity**          | C+              | C+           | C+               | C+              | O             |
+| **Maintainability**     | O               | C+           | C+               | C+              | O             |
+| **Reusability**         | O               | C+           | C+               | C+              | O             |
+| **Testability**         | O               | C+           | C+               | O               | I             |
+| **Documentation**       | I               | C+           | O                | O               | C+            |
+| **Error Handling**      | C               | C+           | C+               | O               | C+            |
 
 ---
 
-### Relationship Types Explained:
-
--   **C+**: Compatible and positively contributes to the NFR.
--   **C**: Compatible but requires additional effort to align with the NFR.
--   **O**: Optional, indirectly supports the NFR but is not directly related.
--   **I**: Insufficient or irrelevant to the NFR.
+### Legend for Relationship Types:
+- **C+**: Direct and positive contribution to NFR.  
+- **C**: Compatible with additional considerations.  
+- **O**: Optional, indirectly supports NFR.  
+- **I**: Insufficient or unrelated to NFR.  
 
 ---
 
@@ -193,3 +193,6 @@ Potential future enhancements include:
 -   User surveys and feedback on music streaming experiences
 -   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
 -   classroom pdf-1
+
+## Abuse case References
+-   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
