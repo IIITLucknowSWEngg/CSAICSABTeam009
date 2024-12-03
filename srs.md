@@ -1,6 +1,6 @@
 # **1. Software Requirements Specification (SRS)**
 
-## Project Title: **Spotify Clone**
+## Project Title: **Spotify Competitor**
 
 ### Version: 1.0
 
@@ -25,14 +25,7 @@ The Spotify Clone will deliver a user-friendly music streaming experience on bot
 -   **OAuth 2.0**: Open Authorization, a protocol for secure user authentication
 -   **SSL**: Secure Sockets Layer, a standard security technology for encrypted connections
 
-### 1.4 References
-
--   [Spotify API Documentation](https://developer.spotify.com/documentation/web-api/)
--   [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
--   User surveys and feedback on music streaming experiences
--   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
-
-### 1.5 Overview
+### 1.4 Overview
 
 This document is organized into several sections that describe the overall system, functional requirements, non-functional requirements, and other considerations relevant to the development and implementation of the Spotify Clone application. It provides a detailed roadmap for creating a music streaming platform that includes features like user authentication, music playback, playlist creation, personalized recommendations, artist profiles, and premium subscription services. The document also highlights the technical and design considerations to ensure a seamless and scalable user experience.
 
@@ -78,7 +71,7 @@ The primary functions of the Spotify Clone include:
 
 ---
 
-## 3. Specific Requirements
+## 3. Requirements
 
 ### 3.1 Functional Requirements
 
@@ -101,17 +94,36 @@ The primary functions of the Spotify Clone include:
 # Use Case Diagram
 
 ![Use Case Diagram](/usecases.png)
----\*\*\*\*
+
+# Abuse Case Diagram
+
+![Abuse Case Diagram](/abusecases.png)
+
+# Error Case Diagram
+
+![Error Case Diagram](./errorcases.png)
 
 ### 3.2 Non-Functional Requirements
 
-| Requirement ID | Description                                                                                                       |
-| -------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **NFR-1**      | The system should handle at least 8,000 concurrent users without significant performance degradation.             |
-| **NFR-2**      | The user interface should load within 3 seconds on a standard internet connection.                                |
-| **NFR-3**      | All user data, including passwords and payment information, must be encrypted using industry-standard encryption. |
-| **NFR-4**      | The platform should maintain a 99.9% uptime, ensuring high availability for users.                                |
-| **NFR-5**      | The application should be optimized for accessibility, meeting WCAG 2.1 guidelines.                               |
+### SE Guidelines vs. NFR Compatibility Matrix for Spotify Clone
+
+| **SE Guidelines/NFRs** | **Performance** | **Security** | **Availability** | **Scalability** | **Usability** |
+| ---------------------- | --------------- | ------------ | ---------------- | --------------- | ------------- |
+| **Modularity**         | C+              | C+           | C+               | C+              | O             |
+| **Maintainability**    | O               | C+           | C+               | C+              | O             |
+| **Reusability**        | O               | C+           | C+               | C+              | O             |
+| **Testability**        | O               | C+           | C+               | O               | I             |
+| **Documentation**      | I               | C+           | O                | O               | C+            |
+| **Error Handling**     | C               | C+           | C+               | O               | C+            |
+
+---
+
+### Relationship Types Explained:
+
+-   **C+**: Compatible and positively contributes to the NFR.
+-   **C**: Compatible but requires additional effort to align with the NFR.
+-   **O**: Optional, indirectly supports the NFR but is not directly related.
+-   **I**: Insufficient or irrelevant to the NFR.
 
 ---
 
@@ -176,5 +188,8 @@ Potential future enhancements include:
 
 ## 7. References
 
-- classroom pdf-1
-- ![Use Case definition](/usecasedefinition.jpg)
+-   [Spotify API Documentation](https://developer.spotify.com/documentation/web-api/)
+-   [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+-   User surveys and feedback on music streaming experiences
+-   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
+-   classroom pdf-1
