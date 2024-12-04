@@ -30,7 +30,19 @@ This section highlights the comprehensive architecture of the music streaming ap
 ---
 
 # 3. **Playlist Organization and Tagging**
-This section focuses on improving playlist accessibility and discoverability through tag-based categorization:
+This section emphasizes enhancing playlist organization and improving discoverability using tag-based classification:
+
+- **Playlist Categorization**:
+  - Organize playlists by themes, custom tags, or mood-based metadata for seamless access.
+  - Sort playlists effortlessly by criteria such as most recent, alphabetical order, or personalized preferences.
+
+- **Tagging Interface**:
+  - Add tags using a user-friendly interface, with popular tag recommendations to streamline the process.
+  - Combine multiple tags for detailed and accurate categorization of music.
+
+- **Tag-Based Discovery**:
+  - Discover playlists through intuitive tag searches like `#Pop`, `#Workout`, or `#ChillVibes`.
+  - View search results in visually appealing carousel or grid layouts for effortless exploration.
 
 - **Playlist Categorization**:
   - Manage playlists by themes, tags, or mood-specific metadata.
