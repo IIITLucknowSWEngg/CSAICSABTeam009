@@ -82,7 +82,8 @@ The Spotify Clone will be a music streaming platform offering features such as s
 
 ### 4.5 Maintainability
 •⁠  ⁠The codebase should be well-documented and follow best practices to facilitate future updates and maintenance.
-### **5. User Interface Requirements**  
+
+## 5. User Interface Requirements 
 
 1. **Visual Appeal**  
    - The interface must be aesthetically pleasing and modern, using a clean layout with intuitive navigation.  
