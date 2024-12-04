@@ -74,8 +74,8 @@ The scope of this test plan includes the following areas:
   - **Developers:** Address identified bugs and assist with troubleshooting technical issues.  
 
 - **Schedule and Milestones:**  
-  - Testing begins: **[Insert Start Date]**  
-  - Testing ends: **[Insert End Date]**  
+  - Testing begins:   
+  - Testing ends:   
   - Milestones include test case development, execution, bug reporting, and final evaluation.  
 
 - **Tools and Equipment:**  
