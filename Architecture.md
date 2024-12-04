@@ -1,5 +1,5 @@
 # 1. **User Flow Overview**
-This section outlines the user experience within the Spotify-inspired app, emphasizing key actions such as authentication, music discovery, playback, and social features.
+This section highlights the user journey within the Spotify-inspired app, focusing on essential actions like authentication, discovering music, playback functionality, and social engagement features.
 
 ## Core Functionalities:
 - **User Authentication**: Enjoy a secure and seamless sign-up and login process, with options for social media integration and multi-factor authentication for added security.
