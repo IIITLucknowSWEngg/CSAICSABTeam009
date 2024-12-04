@@ -83,12 +83,32 @@ The scope of this test plan includes the following areas:
 ---
 
 ## 4. Inclusions  
-The test plan will cover:  
-- Functional testing of core features (e.g., music playback, playlists).  
-- Usability testing to ensure a seamless user experience.  
-- Performance testing for high user loads.  
-- Cross-browser and cross-device compatibility testing.  
-- Validation of premium features and payment integration.  
+The test plan will cover:   
+
+- **Functional Testing Reports:**  
+  Detailed results of functional testing, covering core features such as music playback, playlist management, account management, search functionality, and cross-device synchronization.  
+
+- **Usability Testing Reports:**  
+  Insights from usability testing, assessing the intuitiveness, accessibility, and overall user experience of the platform across various devices and user demographics.  
+
+- **Performance Testing Reports:**  
+  Metrics and analysis of the platform’s behavior under high user loads, including latency, streaming quality, and server response times during peak usage periods.  
+
+- **Cross-Browser and Cross-Device Compatibility Reports:**  
+  Documentation of testing outcomes for compatibility across major browsers (e.g., Chrome, Safari, Edge, Firefox) and devices (e.g., iOS, Android, Windows, macOS).  
+
+- **Premium Features Validation Reports:**  
+  Results of testing for premium features, including offline downloads, ad-free playback, high-quality streaming, and payment gateway functionality.  
+
+- **Defect Reports:**  
+  Comprehensive logs of all identified defects, categorized by severity and status (e.g., open, in progress, resolved), along with steps to reproduce and resolution timelines.  
+
+- **Test Execution Reports:**  
+  Summaries of executed test cases, including pass/fail rates, issues encountered, and retest outcomes to ensure full coverage.  
+
+- **Documentation of Test Artifacts:**  
+  All related test artifacts such as the test strategy document, test cases, and user journey maps used during the testing process.  
+
 
 ---
 
