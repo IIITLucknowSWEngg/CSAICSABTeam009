@@ -2,11 +2,6 @@
 
 A stakeholder is any individual, group, or organization that has an interest in or is impacted by the outcome of a project. Stakeholders can influence the project's direction, decisions, and success, either directly or indirectly. In our Spotify project the following are the list of stakeholders.
 
-## Key Stakeholders Overview
-Here's the division of stakeholders into **Internal** and **External** categories based on their involvement in the Spotify project:  
-
-## Internal vs External Stakeholders  
-
 ### **Internal Stakeholders**  
 These are individuals or groups directly involved in the development, management, or maintenance of the project.  
 
