@@ -26,12 +26,18 @@
 
 ---
 
-## 2. Objective  
-The objective of this test plan is to ensure that the Spotify clone application:  
-- Meets all functional requirements.  
-- Provides an intuitive and user-friendly experience.  
-- Ensures the security of user data.  
-- Delivers high performance across devices and under various conditions.  
+## 2. Objective
+The objective of this test plan is to ensure that the Spotify clone application:
+- Meets all specified functional requirements, including features such as music streaming, playlist creation, and user account management.
+- Provides a seamless, intuitive, and user-friendly interface for smooth navigation and interaction.
+- Ensures robust security measures to protect user data, including secure authentication and encrypted data transmission.
+- Delivers high performance across multiple devices and platforms, ensuring minimal latency and optimal responsiveness under various usage conditions.
+### Technology Stack for Testing:
+- Frontend Frameworks: 
+- Programming Language: 
+- Database: 
+- Web Server: 
+- Load Balancer: 
 
 ---
 
