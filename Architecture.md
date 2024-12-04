@@ -2,10 +2,11 @@
 This section outlines the user experience within the Spotify-inspired app, emphasizing key actions such as authentication, music discovery, playback, and social features.
 
 ## Core Functionalities:
-- **User Authentication**: Seamlessly log in or sign up to explore the platform.
-- **Music Discovery and Playback**: Effortlessly search for tracks, albums, or curated playlists and enjoy high-quality music playback.
-- **Social Engagement**: Share playlists, leave comments, and interact with community content.
-- **Dynamic Navigation Flow**: Users are guided through the app via context-sensitive decision points.
+- **User Authentication**: Enjoy a secure and seamless sign-up and login process, with options for social media integration and multi-factor authentication for added security.
+- **Music Discovery and Playback**: Explore a vast library of songs, albums, and curated playlists with intuitive search filters and uninterrupted high-definition audio streaming.
+- **Social Engagement**: Foster connections by sharing playlists, posting comments, reacting to shared content, and joining music-centric communities.
+- **Dynamic Navigation Flow**: Navigate effortlessly through the app with personalized suggestions and intelligent content pathways tailored to your preferences.
+
 
 ![spotify_clone_user_flow](https://github.com/user-attachments/assets/de42e19a-532b-4eda-a022-be63ae48149d)
 
