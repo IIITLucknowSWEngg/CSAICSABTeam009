@@ -44,18 +44,6 @@ This section emphasizes enhancing playlist organization and improving discoverab
   - Discover playlists through intuitive tag searches like `#Pop`, `#Workout`, or `#ChillVibes`.
   - View search results in visually appealing carousel or grid layouts for effortless exploration.
 
-- **Playlist Categorization**:
-  - Manage playlists by themes, tags, or mood-specific metadata.
-  - Sorting options include most recent, alphabetical, or user-defined priorities.
-
-- **Tagging Interface**:
-  - Assign tags via an intuitive interface, with suggestions for popular tags.
-  - Combine multiple tags for more precise categorization.
-
-- **Tag-Based Discovery**:
-  - Explore playlists using tags like `#Pop`, `#Workout`, or `#ChillVibes`.
-  - Results are presented in carousel or grid views for better navigation.
-
 ![Playlist_Tagging_and_Navigation_Overview](https://github.com/user-attachments/assets/f7b5b8f3-eb73-426d-896c-c6afa6405518)
 
 ---
