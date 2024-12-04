@@ -31,7 +31,7 @@ The Spotify Clone will be a music streaming platform offering features such as s
 ### 2.2 Premium Users
 •⁠  ⁠*Technical Proficiency*: Comfortable with advanced features and willing to pay for enhanced services.
 •⁠  ⁠*Expectations*: Ad-free experience, offline listening, and higher audio quality.
-•⁠  ⁠*Preferences*: Seamless transition between online and offline modes, exclusive content, and enhanced personalization.
+•⁠  ⁠*Preferences*: Seamless transition between online and offline modes, exclusive content, and ad-free music.
 
 ### 2.3 Artists
 •⁠  ⁠*Technical Proficiency*: Varies from basic to advanced; needs to manage their profiles and upload music.
@@ -86,5 +86,82 @@ The Spotify Clone will be a music streaming platform offering features such as s
 
 ### 4.5 Maintainability
 •⁠  ⁠The codebase should be well-documented and follow best practices to facilitate future updates and maintenance.
+### **5. User Interface Requirements**  
+
+1. **Visual Appeal**  
+   - The interface must be aesthetically pleasing and modern, using a clean layout with intuitive navigation.  
+   - Themes and color schemes should be consistent across the application to enhance user experience.  
+
+2. **Responsiveness**  
+   - The design should adapt seamlessly to different devices, including desktops, tablets, and smartphones.  
+   - Key features like music playback and playlist management should remain accessible and functional across varying screen sizes.  
+
+3. **Playback Interface**  
+   - A visually intuitive playback bar with controls for play, pause, skip, shuffle, and repeat.  
+   - A progress bar displaying the duration of the track being played.  
+
+4. **Discoverability**  
+   - The interface should make it easy to explore new music via genres, playlists, and trending tracks.  
+   - Search functionality should be prominent and efficient, allowing users to find songs, albums, artists, and playlists quickly.  
+
+5. **Personalization**  
+   - Users should easily access personalized recommendations such as "Made for You" playlists and favorite tracks.  
+   - The dashboard should highlight recently played tracks, frequently visited playlists, and curated suggestions.  
 
 ---
+
+### **6. Use Cases**  
+
+#### **6.1 User Registration Use Case**  
+- **Actors:** Listener, Premium Subscriber  
+- **Preconditions:** The user is on the registration page.  
+- **Postconditions:** The account is registered, and the user is redirected to the homepage or profile setup page.  
+- **Flow:**  
+  1. The user selects the "Sign Up" option.  
+  2. The user provides their email, password, or chooses a social media account for registration.  
+  3. The user clicks the "Register" button.  
+  4. The system validates the provided information and creates the account.  
+  5. The user receives a confirmation email or notification.  
+
+---
+
+#### **6.2 Music Playback Use Case**  
+- **Actors:** Listener, Premium Subscriber  
+- **Preconditions:** The user is logged in to their account.  
+- **Postconditions:** The selected song starts playing, and playback controls are available.  
+- **Flow:**  
+  1. The user searches for or selects a song, album, or playlist.  
+  2. The user clicks the "Play" button.  
+  3. The system streams the selected audio and updates the playback interface.  
+  4. The user can interact with the playback controls (play, pause, skip, shuffle, etc.).  
+
+---
+
+#### **6.3 Playlist Management Use Case**  
+- **Actors:** Listener, Premium Subscriber  
+- **Preconditions:** The user is logged in to their account.  
+- **Postconditions:** The playlist is created, updated, or deleted as requested.  
+- **Flow:**  
+  1. The user selects the "Create Playlist" option.  
+  2. The user enters a name for the playlist and optionally uploads a cover image.  
+  3. The user adds tracks to the playlist by searching or selecting from existing songs.  
+  4. The user saves the playlist.  
+  5. The system stores the playlist in the user’s library and updates it based on further edits.  
+
+---
+
+#### **6.4 Premium Subscription Use Case**  
+- **Actors:** Listener, Premium Subscriber  
+- **Preconditions:** The user is logged in to their account.  
+- **Postconditions:** The user’s account is upgraded to a premium subscription.  
+- **Flow:**  
+  1. The user selects the "Upgrade to Premium" option.  
+  2. The user views the subscription plans and chooses one.  
+  3. The user enters payment details or selects a payment method.  
+  4. The system processes the payment and upgrades the account to premium.  
+  5. The user receives a confirmation email and gains access to premium features.  
+
+---
+
+### **7. Summary**  
+The Spotify Clone is designed to deliver a seamless and enjoyable music streaming experience, offering robust features like personalized recommendations, cross-device compatibility, and easy playlist management. The interface prioritizes usability and discoverability, ensuring users can explore and enjoy music effortlessly. These requirements and use cases serve as a foundation for building a platform that meets users' expectations and provides a competitive edge in the music streaming market.
