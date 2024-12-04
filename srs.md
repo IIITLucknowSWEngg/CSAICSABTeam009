@@ -75,20 +75,20 @@ The Spotify Clone is a multi-platform music streaming application that uses thir
 
 | **Use Case**             | **Primary Actor** | **Preconditions**                     | **Actor's Goals**            | **Secondary Actors** | **Main Tasks/Functions**                   |
 | ------------------------ | ----------------- | ------------------------------------- | ---------------------------- | -------------------- | ------------------------------------------ |
-| Stream Music             | End User          | End User is logged in and has internet    | Listen to songs online       | None                 | Fetch and play music in real-time          |
+| Stream Music             | Listener          | End User is logged in and has internet    | Listen to songs online       | None                 | Fetch and play music in real-time          |
 | Download Offline Music   | Premium User      | Premium User is logged in with a premium plan | Listen to music offline      | None                 | Enable song downloads for offline access   |
-| Generate Recommendations | End User          | End User has an active account            | Discover new music           | System Algorithm     | Suggest songs based on user's activity     |
-| Report Issues            | End User          | End User encountered an issue             | Resolve app problems         | Admin                | Submit issue reports to support team       |
-| Browse Music             | End User          | End User is logged in                     | Explore available songs      | None                 | Display categories and playlists           |
-| Search for Songs         | End User          | End User is logged in                     | Find specific tracks         | None                 | Enable keyword-based song search           |
-| Create Playlist          | End User          | End User is logged in                     | Organize favorite tracks     | None                 | Add/remove songs to/from playlists         |
+| Generate Recommendations | Listener          | End User has an active account            | Discover new music           | System Algorithm     | Suggest songs based on user's activity     |
+| Report Issues            | user          | End User encountered an issue             | Resolve app problems         | Admin                | Submit issue reports to support team       |
+| Browse Music             | Listener           | End User is logged in                     | Explore available songs      | None                 | Display categories and playlists           |
+| Search for Songs         | Listener         | End User is logged in                     | Find specific tracks         | None                 | Enable keyword-based song search           |
+| Create Playlist          | Listener           | End User is logged in                     | Organize favorite tracks     | None                 | Add/remove songs to/from playlists         |
 | View Artist Analytics    | Artist            | Artist account is active              | Track performance of uploads | None                 | Show statistics on views and plays         |
 | Upload Content           | Artist            | Artist account is active              | Share music with End Users       | Admin (approval)     | Upload and manage music files              |
 | Handle Payments          | Admin             | Payment systems are set up            | Manage Premium User subscriptions    | End User                 | Process subscription fees and transactions |
 | Manage Users             | Admin             | Admin account is active               | Maintain user database       | End User/Artist          | Add, remove, or modify user accounts       |
 ---
 - **User**: Refers to any individual who interacts with the music streaming platform. It can be categorized as:
-  - **End User**: A general user who accesses the platform for music streaming and related features.
+  - **Listener**: A general user who accesses the platform for music streaming and related features.
   - **Premium User**: A subscriber with additional privileges like downloading music for offline listening.
   - **Artist**: A creator or contributor uploading content and managing their analytics.
   - **Admin**: A platform manager responsible for overseeing user accounts, handling payments, and maintaining the system.
