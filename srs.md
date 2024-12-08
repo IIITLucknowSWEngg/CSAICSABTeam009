@@ -94,18 +94,18 @@ The Spotify competitor is a multi-platform music streaming application that uses
 
 ### 3.2 Use Case Diagram
 
-![Use Case Diagram](/usecases.png)
+![Use Case Diagram](./diagram%20document/usecases1.png)
 
 # Abuse Case Diagram
 
-![Abuse Case Diagram](/abusecases.png)
+![Abuse Case Diagram](./diagram%20document/abusecases1.png)
 ## Abuse case References
 -   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
 ---
 
 # Error Case Diagram
 
-![Error Case Diagram](./errorcases.png)
+![Error Case Diagram](./diagram%20document/errorcases1.png)
 
 ### 3.2 Non-Functional Requirements
 
