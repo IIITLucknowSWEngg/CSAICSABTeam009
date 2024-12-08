@@ -144,27 +144,27 @@ This document outlines the user requirements for a music streaming platform desi
 
 ### **4. User Interface Requirements**
 
-**5.1 Search and Discovery**  
+**4.1 Search and Discovery**  
 - Prominent search bar with autocomplete suggestions.  
 - Display search results in categorized tabs (songs, albums, artists, podcasts).  
 
-**5.2 Playback Screen**  
+**4.2 Playback Screen**  
 - Intuitive playback controls (play, pause, skip, shuffle).  
 - Display album art, lyrics, and track info.  
 
-**5.3 Playlists and Libraries**  
+**4.3 Playlists and Libraries**  
 - Drag-and-drop functionality for managing playlists.  
 - Allow sorting by name, date, or popularity.  
 
-**5.4 Premium Features**  
+**4.4 Premium Features**  
 - Download manager for offline content with status indicators.  
 - Toggle high-quality audio settings in preferences.  
 
-**5.5 Artist Dashboard**  
+**4.5 Artist Dashboard**  
 - Upload music with metadata fields.  
 - Visualize analytics through graphs and charts.  
 
-**5.6 Admin Panel**  
+**4.6 Admin Panel**  
 - Overview of platform metrics (users, streams, revenue).  
 - Tools for approving/rejecting content.  
 - Exportable reports for business insights.  
