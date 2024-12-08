@@ -68,25 +68,31 @@ The Spotify Clone will be a music streaming platform offering features such as s
 
 ---
 
-## 4. Non-Functional Requirements
+### **4. Non-Functional Requirements (NFRs)**
 
-### 4.1 Performance
-•⁠  ⁠The application must support high concurrency for streaming and playlist management.
-•⁠  ⁠The system should load music and playlists quickly and provide minimal latency.
+#### **4.1 Performance**  
+1. The application must support up to **5,000 concurrent users** for streaming and playlist management.  
+2. The system should load music and playlists within **2 seconds**.  
+3. Streaming latency should not exceed **100 milliseconds**.
 
-### 4.2 Scalability
-•⁠  ⁠The application should handle increasing numbers of users and content without degradation in performance.
+#### **4.2 Scalability**  
+1. The application should handle an increase to **10,000 concurrent users** with minimal performance degradation.  
+2. The system must support adding more users and content efficiently with small infrastructure changes.
 
-### 4.3 Security
-•⁠  ⁠User data and streaming content should be encrypted.
-•⁠  ⁠Authentication should be secure, with protection against unauthorized access.
+#### **4.3 Security**  
+1. All user data and streaming content must be encrypted using **AES-256**.  
+2. Authentication must use secure protocols (e.g., **JWT**).  
+3. Implement protections against common threats like **SQL injection**, **XSS**, and **CSRF**.
 
-### 4.4 Usability
-•⁠  ⁠The user interface should be intuitive and accessible for all user groups.
-•⁠  ⁠The application should provide a consistent and engaging user experience.
+#### **4.4 Usability**  
+1. The interface should be intuitive for all user groups with minimal onboarding.  
+2. The system should meet **WCAG 2.1** accessibility guidelines.  
+3. Response times for user actions should be under **500 milliseconds**.
 
-### 4.5 Maintainability
-•⁠  ⁠The codebase should be well-documented and follow best practices to facilitate future updates and maintenance.
+#### **4.5 Maintainability**  
+1. The codebase must be well-documented to facilitate updates and maintenance.  
+2. Follow best coding practices like the **SOLID** principles.  
+3. Ensure at least **70% test coverage** for core functionalities.
 
 ---
 
