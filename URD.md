@@ -1,4 +1,4 @@
-### **User Requirements Document (URD) **
+### User Requirements Document (URD) 
 
 ---
 
