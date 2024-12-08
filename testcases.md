@@ -185,6 +185,164 @@ describe('Spotify Clone - Music Playback', () => {
   });
 });
 ```
+Here are **test cases for Artist functionality** in your Spotify competitor, with **Given-When-Then** steps and **Chai.js** code for each scenario.
+
+---
+
+### **Feature: Artist Management**
+
+---
+
+### **Scenario 1: Artist uploads a new song**
+
+**Description:**  
+Ensure that artists can upload new songs successfully.
+
+#### **Given:**  
+The artist is logged in and on the song upload page.
+
+#### **When:**  
+The artist uploads a valid song file with necessary details.
+
+#### **Then:**  
+The song is uploaded successfully, and a success message is displayed: "Song uploaded successfully."
+
+#### **Chai.js Code:**
+
+```js
+const expect = chai.expect;
+
+describe('Spotify Clone - Artist Song Upload', () => {
+  it('should upload a new song successfully', () => {
+    artistPage.openUploadPage();
+    artistPage.uploadSong('new_song.mp3', 'My New Hit');
+    expect(artistPage.getSuccessMessage()).to.equal('Song uploaded successfully');
+    expect(artistPage.getSongList()).to.include('My New Hit');
+  });
+});
+```
+
+---
+
+### **Scenario 2: Artist uploads an invalid song file**
+
+**Description:**  
+Ensure that artists cannot upload invalid song files.
+
+#### **Given:**  
+The artist is logged in and on the song upload page.
+
+#### **When:**  
+The artist attempts to upload an invalid file type.
+
+#### **Then:**  
+An error message is displayed: "Invalid file type."
+
+#### **Chai.js Code:**
+
+```js
+const expect = chai.expect;
+
+describe('Spotify Clone - Artist Song Upload', () => {
+  it('should not upload an invalid song file', () => {
+    artistPage.openUploadPage();
+    artistPage.uploadSong('invalid_file.txt', 'Invalid Song');
+    expect(artistPage.getErrorMessage()).to.equal('Invalid file type');
+    expect(artistPage.getSongList()).to.not.include('Invalid Song');
+  });
+});
+```
+
+---
+
+### **Scenario 3: Artist edits song details**
+
+**Description:**  
+Ensure that artists can update the details of their songs.
+
+#### **Given:**  
+The artist is logged in and has an existing song.
+
+#### **When:**  
+The artist edits the song details.
+
+#### **Then:**  
+The song details are updated successfully, and a success message is displayed: "Song details updated successfully."
+
+#### **Chai.js Code:**
+
+```js
+const expect = chai.expect;
+
+describe('Spotify Clone - Artist Song Management', () => {
+  it('should edit song details successfully', () => {
+    artistPage.openSongDetails('My Old Song');
+    artistPage.editSongDetails('My Updated Song');
+    expect(artistPage.getSuccessMessage()).to.equal('Song details updated successfully');
+    expect(artistPage.getSongList()).to.include('My Updated Song');
+  });
+});
+```
+
+---
+
+### **Scenario 4: Artist deletes a song**
+
+**Description:**  
+Ensure that artists can delete their songs.
+
+#### **Given:**  
+The artist is logged in and has a song to delete.
+
+#### **When:**  
+The artist deletes the song.
+
+#### **Then:**  
+The song is removed from the list, and a success message is displayed: "Song deleted successfully."
+
+#### **Chai.js Code:**
+
+```js
+const expect = chai.expect;
+
+describe('Spotify Clone - Artist Song Management', () => {
+  it('should delete a song successfully', () => {
+    artistPage.openSongList();
+    artistPage.deleteSong('My Song To Delete');
+    expect(artistPage.getSuccessMessage()).to.equal('Song deleted successfully');
+    expect(artistPage.getSongList()).to.not.include('My Song To Delete');
+  });
+});
+```
+
+---
+
+### **Scenario 5: Artist views their song analytics**
+
+**Description:**  
+Ensure that artists can view analytics for their songs.
+
+#### **Given:**  
+The artist is logged in and on the analytics page.
+
+#### **When:**  
+The artist selects a song to view its analytics.
+
+#### **Then:**  
+The song analytics are displayed.
+
+#### **Chai.js Code:**
+
+```js
+const expect = chai.expect;
+
+describe('Spotify Clone - Artist Analytics', () => {
+  it('should display song analytics successfully', () => {
+    artistPage.openAnalyticsPage();
+    artistPage.viewSongAnalytics('My Popular Song');
+    expect(artistPage.getAnalyticsHeader()).to.equal('Analytics for My Popular Song');
+  });
+});
 
 ---
 
