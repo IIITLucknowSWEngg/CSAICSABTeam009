@@ -1,6 +1,6 @@
-### **Methodology for Developing a Spotify Clone**  
+### **Methodology for Developing a Spotify Compitetor**  
 
-Creating a Spotify clone requires a strategic development methodology focused on flexibility, scalability, and continuous improvement. Below is an overview of the key steps involved:  
+Creating a Spotify Compitetor requires a strategic development methodology focused on flexibility, scalability, and continuous improvement. Below is an overview of the key steps involved:  
 
 ---
 
