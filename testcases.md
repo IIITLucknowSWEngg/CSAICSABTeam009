@@ -1,4 +1,4 @@
-**Spotify Clone-Test Cases**
+**Spotify Competitor-Test Cases**
 
 ### **Functional Test Cases**
 

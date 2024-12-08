@@ -21,7 +21,8 @@ These are individuals or groups directly involved in the development, management
 | **Senior Legal Counsel**      | Manages licensing and business expansion             | Handling agreements and supporting development                   |  
 
 ### **External Stakeholders**  
-These are individuals or groups who interact with the platform but are not directly involved in its creation or management.  
+These are individuals or groups who interact with the platform but are not directly involved in its creation or management. 
+Those requiring a login.
 
 
 | **Stakeholder**          | **Role**                         | **Responsibilities**                                       |
