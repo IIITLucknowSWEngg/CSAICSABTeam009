@@ -23,8 +23,10 @@ These are individuals or groups directly involved in the development, management
 ### **External Stakeholders**  
 These are individuals or groups who interact with the platform but are not directly involved in its creation or management.  
 
-| **Stakeholder**               | **Role**                                              | **Responsibilities**                                             |  
-|-------------------------------|------------------------------------------------------|------------------------------------------------------------------|  
-| **Music Listeners**           | Consumers of the music content                       | Using the platform, providing feedback on usability and features |  
-| **Artists**                   | Creators of music content                            | Uploading content, engaging with listeners, and collaborating    |  
-| **Partner Organizations**     | External brands or collaborators                     | Working with the platform for campaigns and promotions           |  
+
+| **Stakeholder**          | **Role**                         | **Responsibilities**                                       |
+|---------------------------|----------------------------------|-----------------------------------------------------------|
+| **Music Listeners**      | Consumers of the music content   | Using the platform, providing feedback on usability and features |
+| **Premium Listeners**    | Subscribers to premium features  | Accessing exclusive content, enjoying ad-free listening, and providing feedback on premium services |
+| **Artists**              | Creators of music content        | Uploading content, engaging with listeners, and collaborating |
+| **Partner Organizations**| External brands or collaborators | Working with the platform for campaigns and promotions    |
