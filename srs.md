@@ -130,8 +130,48 @@ The Spotify competitor is a multi-platform music streaming application that uses
 -   **C**: Compatible with additional considerations.
 -   **O**: Optional, indirectly supports NFR.
 -   **I**: Insufficient or unrelated to NFR.
+  
 
 ---
+
+### *3.2.1. Performance*
+- *System must support 5000 concurrent users* with *sub-second response times* (1s or less) for loading playlists, profiles, and music.
+- *Streaming must buffer in under 2 seconds* for 95% of users.
+- Backend services should *scale horizontally* to handle up to *10,000 concurrent users* with *no degradation in performance*.
+- *Load tests* should simulate *5000 concurrent users* to ensure *less than 5% latency increase*.
+
+---
+
+### *3.2.2. Security*
+- *User data* (personal info, payment details) must be encrypted using *AES-256* or stronger.
+- *Role-based access control* for listeners and premium listeners to ensure appropriate access.
+- Regular *penetration testing* and *automated security scans* to detect vulnerabilities.
+- *OAuth 2.0 authentication* for secure login, with *JWT tokens* for session management.
+
+---
+
+### *3.2.3. Availability*
+- *99.9% uptime* (i.e., less than *8.77 hours of downtime* annually).
+- *Backup servers* and *geographically distributed data centers* ensure availability during peak loads (e.g., 5000 concurrent users).
+- *Graceful degradation* during failures, such as providing cached media during temporary server issues.
+
+---
+
+### *3.2.4. Scalability*
+- The system should *scale horizontally* to handle *up to 15,000 concurrent users*.
+- Use *load balancing* and *auto-scaling* to maintain performance as user demand grows.
+- Stress tests should verify that the system can handle *5000-10,000 users* while keeping response times under *3 seconds*.
+
+---
+
+### *3.2.5. Usability*
+- The user interface must be *intuitive* and *consistent* across mobile and web platforms.
+- *Listeners should be able to play music or create playlists* within *5 clicks*.
+- *UI components* (e.g., music player, search bar) should be *reusable* across the application.
+- *User-friendly error messages* should appear for issues like login failures or media buffering problems.
+
+---
+
 
 ## 4. External Interface Requirements
 
