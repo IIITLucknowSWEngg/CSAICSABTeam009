@@ -313,7 +313,7 @@ describe('Spotify Clone - Usability Test', () => {
 
 ---
 
-#### **13. Error Handling **
+#### **13. Error Handling**
 
 **Given:**  
 The listener interacts with the platform.
