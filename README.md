@@ -1,7 +1,5 @@
 # CSAICSBTeam009
 
-## **Project Overview**
-
 ## **Team Name:**
 
 ## **Project Idea:** **SPOTIFY COMPETITOR**

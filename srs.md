@@ -2,19 +2,17 @@
 
 ## Project Title: **Spotify Competitor**
 
-### Version: 1.0
 
----
 
 ## 1. Introduction
 
 ### 1.1 Purpose
 
-The purpose of this Software Requirements Specification (SRS) document is to provide a detailed and technical description of the Spotify Clone, a music streaming platform designed for local artists. The system is intended to enable authenticated users to stream music, create and manage playlists, follow artists, and discover music based on regional preferences.
+The purpose of this Software Requirements Specification (SRS) document is to provide a detailed and technical description of the Spotify competitor, a music streaming platform designed for local artists. The system is intended to enable authenticated users to stream music, create and manage playlists, follow artists, and discover music based on regional preferences.
 
 ### 1.2 Scope
 
-The Spotify Clone will deliver a seamless music streaming experience on web and mobile platforms. It is designed for diverse user roles, including listeners, artists, and premium subscribers. Core functionalities include user authentication, real-time streaming, playlist management, personalized recommendations, offline playback for premium users, and secure payment processing for subscriptions.
+The Spotify competitor will deliver a seamless music streaming experience on web and mobile platforms. It is designed for diverse user roles, including listeners, artists, and premium subscribers. Core functionalities include user authentication, real-time streaming, playlist management, personalized recommendations, offline playback for premium users, and secure payment processing for subscriptions.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
@@ -35,7 +33,7 @@ This document provides a roadmap for designing and implementing a music streamin
 
 ### 2.1 Product Perspective
 
-The Spotify Clone is a multi-platform music streaming application that uses third-party APIs for metadata management. It allows authenticated users to stream music, create playlists, and explore new content. The system emphasizes scalability and modularity to ensure performance under heavy user loads.
+The Spotify competitor is a multi-platform music streaming application that uses third-party APIs for metadata management. It allows authenticated users to stream music, create playlists, and explore new content. The system emphasizes scalability and modularity to ensure performance under heavy user loads.
 
 ### 2.2 Product Functions
 
@@ -101,6 +99,9 @@ The Spotify Clone is a multi-platform music streaming application that uses thir
 # Abuse Case Diagram
 
 ![Abuse Case Diagram](/abusecases.png)
+## Abuse case References
+-   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
+---
 
 # Error Case Diagram
 
@@ -166,7 +167,7 @@ The Spotify Clone is a multi-platform music streaming application that uses thir
 
 ### 5.1 High-Level Architecture
 
-The Spotify Clone will consist of the following components:
+The Spotify competitor will consist of the following components:
 
 -   **Frontend**: A responsive web application developed using React, and a mobile app developed using React Native.
 -   **Backend**: A RESTful API using Node.js and Express, responsible for handling business logic and database interactions.
@@ -194,5 +195,3 @@ Potential future enhancements include:
 -   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
 -   classroom pdf-1
 
-## Abuse case References
--   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
