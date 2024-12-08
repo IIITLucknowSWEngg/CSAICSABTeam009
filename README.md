@@ -1,6 +1,6 @@
 # CSAICSBTeam009
 
-## **Team Name:**
+## **Team Name: TUNE SMITHS**
 
 ## **Project Idea:** **SPOTIFY COMPETITOR**
 
