@@ -295,7 +295,7 @@ describe('Spotify Clone - Availability Test', () => {
 The listener is interacting with the platform.
 
 **When:**  
-The listener navigates through the UI.
+The listener navigates through the UI as he expects.
 
 **Then:**  
 The interface should be intuitive and responsive, providing a seamless experience.
@@ -313,30 +313,7 @@ describe('Spotify Clone - Usability Test', () => {
 
 ---
 
-#### **13. Maintainability - Code Documentation Test**
-
-**Given:**  
-The application’s source code is being reviewed.
-
-**When:**  
-The codebase is checked for proper documentation and adherence to best practices.
-
-**Then:**  
-The code should be well-documented, with inline comments and clear function names.
-
-**Chai.js Code:**
-```javascript
-describe('Spotify Clone - Maintainability Test', () => {
-  it('should have well-documented codebase', () => {
-    const documentationStatus = checkDocumentation('src');
-    expect(documentationStatus).to.equal('Complete');
-  });
-});
-```
-
----
-
-#### **14. Error Handling - Graceful Error Handling**
+#### **13. Error Handling **
 
 **Given:**  
 The listener interacts with the platform.
@@ -345,7 +322,7 @@ The listener interacts with the platform.
 An unexpected error occurs (e.g., network failure).
 
 **Then:**  
-The system should handle the error gracefully, displaying a user-friendly error message.
+The system should  display a error message.
 
 **Chai.js Code:**
 ```javascript
