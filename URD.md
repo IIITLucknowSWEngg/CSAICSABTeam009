@@ -1,9 +1,9 @@
-### User Requirements Document (URD) 
+### User Requirements Document (URD)
 
 ---
 
 ### **Overview**  
-This document outlines the user requirements for a Spotify Clone, a music streaming platform offering a personalized experience for users to explore, play, and manage audio content. It is designed to meet the needs of listeners, premium users, artists, and admins, ensuring seamless content delivery, discoverability, and engagement.
+This document outlines the user requirements for a music streaming platform designed to compete with Spotify, offering a personalized experience for users to explore, play, and manage audio content. The platform is intended to meet the needs of listeners, premium users, artists, and admins, ensuring seamless content delivery, discoverability, and engagement.
 
 ---
 
@@ -35,6 +35,10 @@ This document outlines the user requirements for a Spotify Clone, a music stream
 - Stream music without ads.  
 - Download songs, albums, or playlists for offline listening.  
 - Access exclusive content such as premium-only releases.  
+- Skip an unlimited number of tracks.  
+**Pain Points:**  
+- Poor offline functionality in free plans.  
+- Lack of access to high-quality audio streams in the free version.  
 
 **User 3: Artist**  
 **Scenario:** I want to upload and promote my music to reach a larger audience.  
@@ -192,4 +196,4 @@ This document outlines the user requirements for a Spotify Clone, a music stream
 - Tools for approving/rejecting content.  
 - Exportable reports for business insights.  
 
----
+--- 
