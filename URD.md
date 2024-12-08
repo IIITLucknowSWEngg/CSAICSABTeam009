@@ -35,7 +35,6 @@ This document outlines the user requirements for a Spotify Clone, a music stream
 - Stream music without ads.  
 - Download songs, albums, or playlists for offline listening.  
 - Access exclusive content such as premium-only releases.  
-- Skip an unlimited number of tracks.  
 
 **User 3: Artist**  
 **Scenario:** I want to upload and promote my music to reach a larger audience.  
