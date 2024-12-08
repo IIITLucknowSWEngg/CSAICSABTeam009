@@ -98,7 +98,7 @@ The Spotify competitor is a multi-platform music streaming application that uses
 
 # Abuse Case Diagram
 
-![Abuse Case Diagram](./diagram%20document/abusecases1.png)
+![Abuse Case Diagram](./diagram%20document/abusecases.png)
 ## Abuse case References
 -   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
 ---
