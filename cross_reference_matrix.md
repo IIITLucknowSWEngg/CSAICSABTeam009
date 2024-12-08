@@ -59,3 +59,9 @@ This document provides a detailed mapping of the core features of the project to
 - **File Name:** `cross_reference_matrix.md`
 - **Version:** 1.0  
 - **Last Updated:** 04/12/2024
+
+## Prompts Used 
+
+**What could be different possible modules and features in a cross reference matrix**
+
+A Spotify clone would include modules like Authentication (user signup/login, password reset, social login), User Profile (edit profile, listening history, manage subscriptions), Music Library (browse songs, albums, genres, and trends), and Search and Discovery (search for songs, autocomplete, recommendations). Additional modules could handle Playlist Management (create, edit, share, public/private playlists), Playback Controls (play, pause, shuffle, lyrics), Streaming and Offline Access (high-quality streaming, downloads), and Social Features (share playlists, follow users/artists). The Admin Panel would oversee content management, while Subscription Management would support payment processing and plans. Each feature, such as creating playlists or streaming, is mapped to its respective module to ensure functionality and scalability.
