@@ -85,7 +85,6 @@ This document provides a detailed mapping of the core features of the project to
 | Podcast Creators     | 4.5                | Podcast Management            | 4.5                | Podcast Content Management        | 4.5                     | Podcast Management                  | 4.5.1                 | Podcast Management Design           | 4.5                 | Podcast Management Tests           |
 
 
-
 ## Prompts Used 
 
 **What could be different possible modules and features in a cross reference matrix**
