@@ -17,55 +17,49 @@ This document outlines the user requirements for a music streaming platform desi
 
 ### **1. User Stories**
 
-**As a Listener:**  
+**User 1: Listener**  
 **Scenario:** I want to discover, play, and organize my favorite music and podcasts easily.  
 **Goals:**  
-- I want to search for songs, albums, artists, or genres.  
-- I want to create and manage my playlists.  
-- I want to receive recommendations based on my listening habits.  
-- I want to share songs or playlists with my friends.  
+- Search for songs, albums, artists, or genres.  
+- Create and manage playlists.  
+- Receive recommendations based on my listening habits.  
+- Share songs or playlists with friends.  
 **Pain Points:**  
-- I experience interruptions due to ads in the free version.  
-- I have limited offline functionality.
+- Interruptions due to ads in the free version.  
+- Limited offline functionality.  
 
----
-
-**As a Premium User:**  
+**User 2: Premium User**  
 **Scenario:** I want an ad-free and uninterrupted music experience with additional features.  
 **Goals:**  
-- I want to stream music without ads.  
-- I want to download songs, albums, or playlists for offline listening.  
-- I want access to exclusive content, such as premium-only releases.  
-- I want to skip an unlimited number of tracks.  
+- Stream music without ads.  
+- Download songs, albums, or playlists for offline listening.  
+- Access exclusive content such as premium-only releases.  
+- Skip an unlimited number of tracks.  
 **Pain Points:**  
-- The offline functionality in free plans is poor.  
-- I lack access to high-quality audio streams in the free version.
+- Poor offline functionality in free plans.  
+- Lack of access to high-quality audio streams in the free version.  
 
----
-
-**As an Artist:**  
+**User 3: Artist**  
 **Scenario:** I want to upload and promote my music to reach a larger audience.  
 **Goals:**  
-- I want to create my artist profile with a bio and photos.  
-- I want to upload my music tracks and albums.  
-- I want to access analytics for my plays, followers, and earnings.  
-- I want to engage with my fans via exclusive content or updates.  
+- Create an artist profile with bio and photos.  
+- Upload music tracks and albums.  
+- Access analytics for plays, followers, and earnings.  
+- Engage with fans via exclusive content or updates.  
 **Pain Points:**  
-- I have limited visibility as a new or independent artist.  
-- I lack tools for direct fan engagement.
+- Limited visibility for new or independent artists.  
+- Lack of tools for direct fan engagement.  
 
----
-
-**As an Admin:**  
+**User 4: Admin**  
 **Scenario:** I manage the platform, ensuring content quality and smooth operations.  
 **Goals:**  
-- I want to approve or reject uploaded tracks and artist profiles.  
-- I want to monitor platform performance and resolve user complaints.  
-- I want to handle subscription plans and payments.  
-- I want to generate reports on user activity and content trends.  
+- Approve or reject uploaded tracks and artist profiles.  
+- Monitor platform performance and resolve user complaints.  
+- Handle subscription plans and payments.  
+- Generate reports on user activity and content trends.  
 **Pain Points:**  
-- I have insufficient tools for tracking violations or disputes.  
-- The manual processing of artist uploads takes too much time.
+- Insufficient tools for tracking violations or disputes.  
+- Manual processing of artist uploads takes too much time.  
 
 ---
 
@@ -74,137 +68,105 @@ This document outlines the user requirements for a music streaming platform desi
 **Use Case 1: Music Discovery and Streaming**  
 **Actor:** Listener or Premium User  
 **Steps:**  
-1. I search for music by song title, artist, or genre.  
-2. I browse curated playlists or recommendations.  
-3. I play selected content or add it to a playlist.  
-4. I adjust playback settings (shuffle, repeat, EQ).  
-**Outcome:** I enjoy a personalized music experience.  
-
----
+1. Search for music by song title, artist, or genre.  
+2. Browse curated playlists or recommendations.  
+3. Play selected content or add it to a playlist.  
+4. Adjust playback settings (shuffle, repeat, EQ).  
+**Outcome:** Listener enjoys a personalized music experience.  
 
 **Use Case 2: Offline Music Access**  
 **Actor:** Premium User  
 **Steps:**  
-1. I download desired songs, albums, or playlists for offline use.  
-2. I access my downloaded music without an internet connection.  
-3. I manage storage settings to optimize my device space.  
-**Outcome:** I enjoy uninterrupted playback offline.  
-
----
+1. Download desired songs, albums, or playlists for offline use.  
+2. Access downloaded music without an internet connection.  
+3. Manage storage settings to optimize device space.  
+**Outcome:** Premium user enjoys uninterrupted playback offline.  
 
 **Use Case 3: Content Upload and Analytics**  
 **Actor:** Artist  
 **Steps:**  
-1. I register as an artist and create my profile.  
-2. I upload my tracks with metadata (title, genre, release date).  
-3. I view analytics for my song performance and earnings.  
-4. I engage fans through updates or exclusive releases.  
-**Outcome:** I promote my music and track performance metrics.  
-
----
+1. Register as an artist and create a profile.  
+2. Upload tracks with metadata (title, genre, release date).  
+3. View analytics for song performance and earnings.  
+4. Engage fans through updates or exclusive releases.  
+**Outcome:** Artist promotes music and tracks performance metrics.  
 
 **Use Case 4: Platform Monitoring**  
 **Actor:** Admin  
 **Steps:**  
-1. I review user complaints and resolve disputes.  
-2. I approve or reject uploaded tracks.  
-3. I monitor subscription payments and renewals.  
-4. I generate detailed platform usage reports.  
-**Outcome:** I ensure smooth platform operations.  
+1. Review user complaints and resolve disputes.  
+2. Approve or reject uploaded tracks.  
+3. Monitor subscription payments and renewals.  
+4. Generate detailed platform usage reports.  
+**Outcome:** Admin ensures smooth platform operations.  
 
 ---
 
 ### **3. Functional Requirements**  
 
 **3.1 User Registration and Login**  
-- I can register using my email, social accounts, or phone number.  
-- I have access to a password reset functionality.  
-
----
+- All users must register using email, social accounts, or phone numbers.  
+- Password reset functionality must be available.  
 
 **3.2 User Profiles**  
-- **As a Listener:** I can manage my playlists, favorite songs, and listening history.  
-- **As a Premium User:** I can access ad-free, offline, and high-quality streaming.  
-- **As an Artist:** I can manage my profile, upload my music, and view analytics.  
-- **As an Admin:** I can manage user accounts and monitor activities.  
-
----
+- **Listeners:** Manage playlists, favorite songs, and listening history.  
+- **Premium Users:** Access ad-free, offline, and high-quality streaming.  
+- **Artists:** Manage profiles, upload music, and view analytics.  
+- **Admins:** Manage user accounts and monitor activities.  
 
 **3.3 Music Discovery**  
-- I want a search functionality with filters (genre, mood, language).  
-- I want personalized recommendations based on my listening history.  
-
----
+- Provide search functionality with filters (genre, mood, language).  
+- Offer personalized recommendations based on listening history.  
 
 **3.4 Content Playback**  
-- I understand that free users will experience occasional ads during streaming.  
-- As a premium user, I can enjoy ad-free, high-quality audio playback.  
-
----
+- Free users experience occasional ads during streaming.  
+- Premium users enjoy ad-free, high-quality audio playback.  
 
 **3.5 Playlists and Libraries**  
-- I want to create, edit, and share my playlists.  
-- As a premium user, I can download playlists for offline listening.  
-
----
+- Enable users to create, edit, and share playlists.  
+- Allow premium users to download playlists for offline listening.  
 
 **3.6 Analytics and Reports**  
-- I want real-time playback analytics as an artist.  
-- I want admins to generate platform-wide reports.  
-
----
+- Provide real-time playback analytics for artists.  
+- Generate platform-wide reports for admins.  
 
 **3.7 Subscription Plans**  
-- I want free (ad-supported) and premium (ad-free) plans available.  
-- I want the option to upgrade, renew, or cancel my subscription.  
-
----
+- Implement free (ad-supported) and premium (ad-free) plans.  
+- Allow users to upgrade, renew, or cancel subscriptions.  
 
 **3.8 Notifications**  
-- I want to be notified about new releases, playlist updates, and recommendations.  
-
----
+- Notify users about new releases, playlist updates, and recommendations.  
 
 **3.9 Communication and Sharing**  
-- I want to share songs, playlists, or artist profiles via social media.  
+- Enable sharing of songs, playlists, or artist profiles via social media.  
 
 ---
 
 ### **4. User Interface Requirements**
 
-**4.1 Search and Discovery**  
-- I want a prominent search bar with autocomplete suggestions.  
-- I want to see search results in categorized tabs (songs, albums, artists, podcasts).  
+**5.1 Search and Discovery**  
+- Prominent search bar with autocomplete suggestions.  
+- Display search results in categorized tabs (songs, albums, artists, podcasts).  
 
----
+**5.2 Playback Screen**  
+- Intuitive playback controls (play, pause, skip, shuffle).  
+- Display album art, lyrics, and track info.  
 
-**4.2 Playback Screen**  
-- I want intuitive playback controls (play, pause, skip, shuffle).  
-- I want to see album art, lyrics, and track info.  
+**5.3 Playlists and Libraries**  
+- Drag-and-drop functionality for managing playlists.  
+- Allow sorting by name, date, or popularity.  
 
----
+**5.4 Premium Features**  
+- Download manager for offline content with status indicators.  
+- Toggle high-quality audio settings in preferences.  
 
-**4.3 Playlists and Libraries**  
-- I want drag-and-drop functionality for managing my playlists.  
-- I want to sort my playlists by name, date, or popularity.  
+**5.5 Artist Dashboard**  
+- Upload music with metadata fields.  
+- Visualize analytics through graphs and charts.  
 
----
-
-**4.4 Premium Features**  
-- I want a download manager for offline content with status indicators.  
-- I want to toggle high-quality audio settings in my preferences.  
-
----
-
-**4.5 Artist Dashboard**  
-- I want to upload my music with metadata fields.  
-- I want to visualize my analytics through graphs and charts.  
-
----
-
-**4.6 Admin Panel**  
-- I want an overview of platform metrics (users, streams, revenue).  
-- I want tools for approving/rejecting content.  
-- I want to generate exportable reports for business insights.  
+**5.6 Admin Panel**  
+- Overview of platform metrics (users, streams, revenue).  
+- Tools for approving/rejecting content.  
+- Exportable reports for business insights.  
 
 --- 
