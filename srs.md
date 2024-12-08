@@ -195,3 +195,7 @@ Potential future enhancements include:
 -   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
 -   classroom pdf-1
 
+  Chatgpt prompt- generate a srs for spotify clone 1.introduction  2.overall description  3.requirements (functional and non functional) 4.External Interface   
+  Requirements  5.System Architecture  6.Future Enhancements  7.Future Enhancements  
+  Chatgpt prompt- generate a uml code for usecse,abuse and error cases of spotify
+
