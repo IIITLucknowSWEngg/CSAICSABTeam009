@@ -2,8 +2,6 @@
 
 ## Project Title: **Spotify Competitor**
 
-
-
 ## 1. Introduction
 
 ### 1.1 Purpose
@@ -16,12 +14,12 @@ The Spotify competitor will deliver a seamless music streaming experience on web
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 
-- **API**: Application Programming Interface  
-- **UI**: User Interface  
-- **UX**: User Experience  
-- **SRS**: Software Requirements Specification  
-- **OAuth 2.0**: Open Authorization, a protocol for secure user authentication  
-- **SSL**: Secure Sockets Layer, a protocol for encrypted communications  
+-   **API**: Application Programming Interface
+-   **UI**: User Interface
+-   **UX**: User Experience
+-   **SRS**: Software Requirements Specification
+-   **OAuth 2.0**: Open Authorization, a protocol for secure user authentication
+-   **SSL**: Secure Sockets Layer, a protocol for encrypted communications
 
 ### 1.4 Overview
 
@@ -37,33 +35,33 @@ The Spotify competitor is a multi-platform music streaming application that uses
 
 ### 2.2 Product Functions
 
-- **Authentication**: Registration and login using email or OAuth 2.0 for secure access.  
-- **Streaming**: Real-time music playback with high-quality audio options.  
-- **Playlist Management**: Allows creation, modification, and deletion of playlists.  
-- **Music Search**: Keyword-based search for songs, albums, and artists.  
-- **Personalized Recommendations**: Dynamic recommendations based on user activity.  
-- **Offline Playback**: Premium subscribers can download songs for offline access.  
-- **Subscription Management**: Handles payment processing, renewal, and cancellations.  
+-   **Authentication**: Registration and login using email or OAuth 2.0 for secure access.
+-   **Streaming**: Real-time music playback with high-quality audio options.
+-   **Playlist Management**: Allows creation, modification, and deletion of playlists.
+-   **Music Search**: Keyword-based search for songs, albums, and artists.
+-   **Personalized Recommendations**: Dynamic recommendations based on user activity.
+-   **Offline Playback**: Premium subscribers can download songs for offline access.
+-   **Subscription Management**: Handles payment processing, renewal, and cancellations.
 
 ### 2.3 User Classes and Characteristics
 
-- **Basic Listener**: Newly registered individuals who access the platform with limited features and advertisements.  
-- **Premium Subscriber**: Advanced users with paid subscriptions, enjoying ad-free listening, offline downloads, and high-quality audio.  
-- **Artist**: Contributors who upload and manage music, track engagement metrics, and interact with followers.  
-- **Administrator**: Privileged users responsible for monitoring content, managing user accounts, and ensuring compliance.  
+-   **Basic Listener**: Newly registered individuals who access the platform with limited features and advertisements.
+-   **Premium Subscriber**: Advanced users with paid subscriptions, enjoying ad-free listening, offline downloads, and high-quality audio.
+-   **Artist**: Contributors who upload and manage music, track engagement metrics, and interact with followers.
+-   **Administrator**: Privileged users responsible for monitoring content, managing user accounts, and ensuring compliance.
 
 ### 2.4 Operating Environment
 
-- **Client-Side**: Modern web browsers (e.g., Chrome, Firefox) and mobile devices (iOS and Android).  
-- **Server-Side**: Hosted on AWS, developed using Node.js, with REST APIs for data exchange.  
-- **Database**: MongoDB for storing metadata, user information, and playlists.  
+-   **Client-Side**: Modern web browsers (e.g., Chrome, Firefox) and mobile devices (iOS and Android).
+-   **Server-Side**: Hosted on AWS, developed using Node.js, with REST APIs for data exchange.
+-   **Database**: MongoDB for storing metadata, user information, and playlists.
 
 ### 2.5 Design and Implementation Constraints
 
-- The system must support responsive design for optimal performance on various devices.  
-- Adherence to GDPR and other privacy regulations.  
-- SSL encryption for secure audio streaming.  
-- Real-time updates for playlist synchronization and user interactions.  
+-   The system must support responsive design for optimal performance on various devices.
+-   Adherence to GDPR and other privacy regulations.
+-   SSL encryption for secure audio streaming.
+-   Real-time updates for playlist synchronization and user interactions.
 
 ---
 
@@ -71,25 +69,28 @@ The Spotify competitor is a multi-platform music streaming application that uses
 
 ### 3.1 Functional Requirements
 
-| **Use Case**             | **Primary Actor** | **Preconditions**                     | **Actor's Goals**            | **Secondary Actors** | **Main Tasks/Functions**                   |
-| ------------------------ | ----------------- | ------------------------------------- | ---------------------------- | -------------------- | ------------------------------------------ |
-| Stream Music             | Listener          | End User is logged in and has internet    | Listen to songs online       | None                 | Fetch and play music in real-time          |
-| Download Offline Music   | Premium User      | Premium User is logged in with a premium plan | Listen to music offline      | None                 | Enable song downloads for offline access   |
-| Generate Recommendations | Listener          | End User has an active account            | Discover new music           | System Algorithm     | Suggest songs based on user's activity     |
-| Report Issues            | user          | End User encountered an issue             | Resolve app problems         | Admin                | Submit issue reports to support team       |
-| Browse Music             | Listener           | End User is logged in                     | Explore available songs      | None                 | Display categories and playlists           |
-| Search for Songs         | Listener         | End User is logged in                     | Find specific tracks         | None                 | Enable keyword-based song search           |
-| Create Playlist          | Listener           | End User is logged in                     | Organize favorite tracks     | None                 | Add/remove songs to/from playlists         |
-| View Artist Analytics    | Artist            | Artist account is active              | Track performance of uploads | None                 | Show statistics on views and plays         |
-| Upload Content           | Artist            | Artist account is active              | Share music with End Users       | Admin (approval)     | Upload and manage music files              |
-| Handle Payments          | Admin             | Payment systems are set up            | Manage Premium User subscriptions    | End User                 | Process subscription fees and transactions |
-| Manage Users             | Admin             | Admin account is active               | Maintain user database       | End User/Artist          | Add, remove, or modify user accounts       |
+| **Use Case**             | **Primary Actor** | **Preconditions**                             | **Actor's Goals**                 | **Secondary Actors** | **Main Tasks/Functions**                   |
+| ------------------------ | ----------------- | --------------------------------------------- | --------------------------------- | -------------------- | ------------------------------------------ |
+| Stream Music             | Listener          | End User is logged in and has internet        | Listen to songs online            | None                 | Fetch and play music in real-time          |
+| Download Offline Music   | Premium User      | Premium User is logged in with a premium plan | Listen to music offline           | None                 | Enable song downloads for offline access   |
+| Generate Recommendations | Listener          | End User has an active account                | Discover new music                | System Algorithm     | Suggest songs based on user's activity     |
+| Report Issues            | user              | End User encountered an issue                 | Resolve app problems              | Admin                | Submit issue reports to support team       |
+| Browse Music             | Listener          | End User is logged in                         | Explore available songs           | None                 | Display categories and playlists           |
+| Search for Songs         | Listener          | End User is logged in                         | Find specific tracks              | None                 | Enable keyword-based song search           |
+| Create Playlist          | Listener          | End User is logged in                         | Organize favorite tracks          | None                 | Add/remove songs to/from playlists         |
+| View Artist Analytics    | Artist            | Artist account is active                      | Track performance of uploads      | None                 | Show statistics on views and plays         |
+| Upload Content           | Artist            | Artist account is active                      | Share music with End Users        | Admin (approval)     | Upload and manage music files              |
+| Handle Payments          | Admin             | Payment systems are set up                    | Manage Premium User subscriptions | End User             | Process subscription fees and transactions |
+| Manage Users             | Admin             | Admin account is active                       | Maintain user database            | End User/Artist      | Add, remove, or modify user accounts       |
+
 ---
-- **User**: Refers to any individual who interacts with the music streaming platform. It can be categorized as:
-  - **Listener**: A general user who accesses the platform for music streaming and related features.
-  - **Premium User**: A subscriber with additional privileges like downloading music for offline listening.
-  - **Artist**: A creator or contributor uploading content and managing their analytics.
-  - **Admin**: A platform manager responsible for overseeing user accounts, handling payments, and maintaining the system.
+
+-   **User**: Refers to any individual who interacts with the music streaming platform. It can be categorized as:
+    -   **Listener**: A general user who accesses the platform for music streaming and related features.
+    -   **Premium User**: A subscriber with additional privileges like downloading music for offline listening.
+    -   **Artist**: A creator or contributor uploading content and managing their analytics.
+    -   **Admin**: A platform manager responsible for overseeing user accounts, handling payments, and maintaining the system.
+
 ---
 
 ### 3.2 Use Case Diagram
@@ -99,8 +100,11 @@ The Spotify competitor is a multi-platform music streaming application that uses
 # Abuse Case Diagram
 
 ![Abuse Case Diagram](./diagram%20document/abusecases.png)
+
 ## Abuse case References
+
 -   [Spotify's scam](https://qz.com/1212330/a-bulgarian-scheme-scammed-spotify-for-1-million-without-breaking-a-single-law)
+
 ---
 
 # Error Case Diagram
@@ -110,21 +114,22 @@ The Spotify competitor is a multi-platform music streaming application that uses
 ### 3.2 Non-Functional Requirements
 
 | **SE Guidelines/NFRs** | **Performance** | **Security** | **Availability** | **Scalability** | **Usability** |
-|-------------------------|-----------------|--------------|------------------|-----------------|---------------|
-| **Modularity**          | C+              | C+           | C+               | C+              | O             |
-| **Maintainability**     | O               | C+           | C+               | C+              | O             |
-| **Reusability**         | O               | C+           | C+               | C+              | O             |
-| **Testability**         | O               | C+           | C+               | O               | I             |
-| **Documentation**       | I               | C+           | O                | O               | C+            |
-| **Error Handling**      | C               | C+           | C+               | O               | C+            |
+| ---------------------- | --------------- | ------------ | ---------------- | --------------- | ------------- |
+| **Modularity**         | C+              | C+           | C+               | C+              | O             |
+| **Maintainability**    | O               | C+           | C+               | C+              | O             |
+| **Reusability**        | O               | C+           | C+               | C+              | O             |
+| **Testability**        | O               | C+           | C+               | O               | I             |
+| **Documentation**      | I               | C+           | O                | O               | C+            |
+| **Error Handling**     | C               | C+           | C+               | O               | C+            |
 
 ---
 
 ### Legend for Relationship Types:
-- **C+**: Direct and positive contribution to NFR.  
-- **C**: Compatible with additional considerations.  
-- **O**: Optional, indirectly supports NFR.  
-- **I**: Insufficient or unrelated to NFR.  
+
+-   **C+**: Direct and positive contribution to NFR.
+-   **C**: Compatible with additional considerations.
+-   **O**: Optional, indirectly supports NFR.
+-   **I**: Insufficient or unrelated to NFR.
 
 ---
 
@@ -165,6 +170,8 @@ The Spotify competitor is a multi-platform music streaming application that uses
 
 ## 5. System Architecture
 
+
+
 ### 5.1 High-Level Architecture
 
 The Spotify competitor will consist of the following components:
@@ -173,6 +180,10 @@ The Spotify competitor will consist of the following components:
 -   **Backend**: A RESTful API using Node.js and Express, responsible for handling business logic and database interactions.
 -   **Database**: MongoDB for storing user information, playlists, and music metadata.
 -   **Third-Party Services**: Integration with Spotify API, payment gateways, and analytics tools for tracking user engagement.
+
+### 5.2 Process Flow Diagram
+
+![Process Flow Diagram](./diagram%20document/swimlanediagram.png)
 
 ---
 
@@ -195,9 +206,8 @@ Potential future enhancements include:
 -   Competitive analysis of existing platforms (e.g., Spotify, Apple Music)
 -   classroom pdf-1
 
-  Chatgpt prompt- generate a srs for spotify clone 1.introduction  2.overall description  3.requirements (functional and non functional) 4.External Interface   
-  Requirements  5.System Architecture  6.Future Enhancements  7.Future Enhancements  
-  Chatgpt prompt- generate a uml code for usecse,abuse and error cases of spotify
-  https://www.quora.com/What-are-the-intended-use-cases-of-Spotify-Connect
-  https://support.spotify.com/us/article/abuse-detection/
-
+Chatgpt prompt- generate a srs for spotify clone 1.introduction 2.overall description 3.requirements (functional and non functional) 4.External Interface  
+ Requirements 5.System Architecture 6.Future Enhancements 7.Future Enhancements  
+ Chatgpt prompt- generate a uml code for usecse,abuse and error cases of spotify
+https://www.quora.com/What-are-the-intended-use-cases-of-Spotify-Connect
+https://support.spotify.com/us/article/abuse-detection/
